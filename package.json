@@ -1,6 +1,6 @@
 {
   "name": "dave-rennes-react-time-picker",
-  "version": "4.5.1",
+  "version": "4.5.2",
   "description": "A time picker for your React app. (With onChange outputs ('22:00:00 pm' react-time-picker outputs '22:00') similar to react-time-picker@1.1.0 this was released 6 years ago.  Dont use this package.)",
   "main": "dist/entry.js",
   "source": "src/entry.js",
@@ -12,7 +12,6 @@
     "copy-styles": "node ./copy-styles.js",
     "jest": "jest",
     "lint": "eslint sample/ src/ test/ --ext .jsx,.js",
-    "postinstall": "husky install",
     "prepack": "yarn clean && yarn build",
     "test": "yarn lint && yarn jest"
   },

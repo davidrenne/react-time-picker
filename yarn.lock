@@ -2749,6 +2749,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dave-rennes-react-time-picker@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "dave-rennes-react-time-picker@workspace:."
+  dependencies:
+    "@babel/cli": ^7.15.0
+    "@babel/core": ^7.15.0
+    "@babel/preset-env": ^7.15.0
+    "@babel/preset-react": ^7.14.0
+    "@wojtekmaj/date-utils": ^1.0.0
+    "@wojtekmaj/enzyme-adapter-react-17": ^0.6.0
+    enzyme: ^3.10.0
+    eslint: ^8.5.0
+    eslint-config-wojtekmaj: ^0.6.5
+    get-user-locale: ^1.2.0
+    husky: ^7.0.0
+    jest: ^27.0.0
+    less: ^4.0.0
+    make-event-props: ^1.1.0
+    merge-class-names: ^1.1.1
+    merge-refs: ^1.0.0
+    prettier: ^2.5.0
+    pretty-quick: ^3.1.0
+    prop-types: ^15.6.0
+    react: ^17.0.0
+    react-clock: ^3.1.0
+    react-dom: ^17.0.0
+    react-fit: ^1.4.0
+    rimraf: ^3.0.0
+    update-input-width: ^1.2.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  languageName: unknown
+  linkType: soft
+
 "debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2":
   version: 4.3.3
   resolution: "debug@npm:4.3.3"
@@ -6010,41 +6045,6 @@ __metadata:
   checksum: e6b5c6ed2a0bde2c34f1ab9523ff9bc4c141a271daf730d6b852374e83acc0155d58ab71a318251e953ebfa65b8bebb9c5dce3eba1ccfcbef7cc4e1e8261c401
   languageName: node
   linkType: hard
-
-"react-time-picker@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-time-picker@workspace:."
-  dependencies:
-    "@babel/cli": ^7.15.0
-    "@babel/core": ^7.15.0
-    "@babel/preset-env": ^7.15.0
-    "@babel/preset-react": ^7.14.0
-    "@wojtekmaj/date-utils": ^1.0.0
-    "@wojtekmaj/enzyme-adapter-react-17": ^0.6.0
-    enzyme: ^3.10.0
-    eslint: ^8.5.0
-    eslint-config-wojtekmaj: ^0.6.5
-    get-user-locale: ^1.2.0
-    husky: ^7.0.0
-    jest: ^27.0.0
-    less: ^4.0.0
-    make-event-props: ^1.1.0
-    merge-class-names: ^1.1.1
-    merge-refs: ^1.0.0
-    prettier: ^2.5.0
-    pretty-quick: ^3.1.0
-    prop-types: ^15.6.0
-    react: ^17.0.0
-    react-clock: ^3.1.0
-    react-dom: ^17.0.0
-    react-fit: ^1.4.0
-    rimraf: ^3.0.0
-    update-input-width: ^1.2.2
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  languageName: unknown
-  linkType: soft
 
 "react@npm:^17.0.0":
   version: 17.0.2

@@ -178,15 +178,8 @@ export default class TimeInput extends PureComponent {
    */
   getProcessedValue(value) {
     const processFunction = (() => {
-      switch (this.valueType) {
-        case 'hour':
-        case 'minute':
-          return getHoursMinutes;
-        case 'second':
-          return getHoursMinutesSeconds;
-        default:
-          throw new Error('Invalid valueType.');
-      }
+      // Cant find where this.valueType is set.
+      return getHoursMinutesSeconds;
     })();
 
     return processFunction(value);
@@ -386,7 +379,8 @@ export default class TimeInput extends PureComponent {
 
       const padStart = (num) => `0${num}`.slice(-2);
       const proposedValue = `${padStart(hour)}:${padStart(minute)}:${padStart(second)}`;
-      const processedValue = this.getProcessedValue(proposedValue);
+      let processedValue = this.getProcessedValue(proposedValue);
+      processedValue = processedValue + ' ' + values['amPm'];
       onChange(processedValue, false);
     }
   };
